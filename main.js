@@ -1,5 +1,4 @@
-function calcular(tipo, valor){
-    
+function calcular(tipo, valor){  
     if(tipo === 'acao') {
         if(valor === 'c'){
             document.getElementById('resultado').value = '';
@@ -12,5 +11,4 @@ function calcular(tipo, valor){
     } else if(tipo === 'valor') {
         document.getElementById('resultado').value += valor;
     }
-
 }
